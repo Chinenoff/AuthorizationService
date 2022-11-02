@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app1:
+    image: 'myapp:1.0'
+    container_name: 'dockcomposecontainer'
+    ports:
+      - '8080:8080'
